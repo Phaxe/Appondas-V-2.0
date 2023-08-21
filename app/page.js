@@ -4,9 +4,9 @@ import Catalog from "./pages/catalog/Catalog";
 import Banner from "@/components/banner/Banner";
 import Footer from "@/components/footer/Footer";
 import About from "./about/page";
-import Choose from "@/components/choose-Business/Choose";
 import Tech from "@/components/tech-stack/Tech";
-import Testemoni from "./pages/portfolio/Testemoni";
+import Testemoni from "./pages/testemoni/Testemoni";
+import TechStack from "@/components/tech-stack/TechStack";
 
 
 
@@ -16,9 +16,9 @@ export default function Home() {
     <Navbar/>
     <Banner/>
     <Features/>
-    <Choose/>
     <Catalog/>
-    <Tech/>
+    <TechStack/>
+  
     <About/>
     <Testemoni/>
     <Footer/>

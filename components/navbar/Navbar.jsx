@@ -18,8 +18,8 @@ function NavBar() {
       <nav
         className={`${
           isScrolled
-            ? "w-full h-[80px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10"
-            : " w-full h-[80px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7]"
+            ? "w-full h-[70px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10"
+            : " w-full h-[70px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7]"
         }`}>
         <div
           className={`${
@@ -34,7 +34,7 @@ function NavBar() {
                 <Image
                   src='/logo.png'
                   priority
-                  width={130}
+                  width={100}
                   height={50}
                   alt='appondas-image'
                 />
@@ -63,8 +63,8 @@ function NavBar() {
                   className=' text-xl text-white py-3 md:px-4 text-center max-md:border-b-2  rounded-none
                    border-white 
                  hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='#features' onClick={() => setNavbar(!navbar)}>
-                    Catalog
+                  <Link href='/' onClick={() => setNavbar(!navbar)}>
+                    Home
                   </Link>
                 </li>
                 <li
@@ -79,8 +79,8 @@ function NavBar() {
                   className=' text-xl text-white py-3 md:px-4 text-center 
                    border-white max-md:border-b-2   rounded-none
                  hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='#catalog' onClick={() => setNavbar(!navbar)}>
-                    Tech-Stack
+                  <Link href='/Services' onClick={() => setNavbar(!navbar)}>
+                    Projects
                   </Link>
                 </li>
                 <li
