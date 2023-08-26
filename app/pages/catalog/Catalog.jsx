@@ -7,14 +7,14 @@ import { IoIosArrowForward } from "react-icons/io";
 import { BsArrowRight } from "react-icons/bs";
 const Catalog = () => {
   return (
-    <div id="catalog" className=" bg-yahia-700 pb-10">
+    <div id="catalog" className=" w-[1500px] bg-yahia-800 m-auto py-10 my-10 border border-transparent  rounded-md">
       {/* ****SINGLE-PROJECT-CARD******** */}
 
-      <div className="flex flex-col items-center justify-center pb-10">
-        <div className="w-[1050px] max-sm:w-[340px]   max-xl:w-[750px] max-md:w-[450px]">
+      <div className="flex flex-col items-center justify-center pb-10 bg-yahia-800 rounded-md">
+        <div className="w-[1050px] max-sm:w-[340px]   max-xl:w-[750px] max-md:w-[450px] ">
           <h1
-            className="text-center pb-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl 
-           bg-clip-text text-transparent bg-gradient-to-l from-yellow-500 via-orange-500 to-red-500 "
+            className="text-center py-10 text-3xl font-semibold w-[80%] m-auto max-sm:text-xl 
+           bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700"
           >
             Customers rely on Appondas
           </h1>
@@ -26,15 +26,15 @@ const Catalog = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center border rounded-md">
           <div
             className="w-[1050px] h-[550px] flex justify-center items-center mx-auto
            max-xl:w-[750px] max-md:w-[450px] max-md:h-[300px]
            max-sm:w-[340px]"
           >
-            <Image
+            <Image 
               src={dashboard}
-              className="h-[100%] w-full mx-auto object-cover  "
+              className="h-[100%] w-full mx-auto object-cover rounded-md "
               alt="dashboard"
             />
           </div>
@@ -71,9 +71,9 @@ const Catalog = () => {
 
       {/* ****DOUBLE-PROJECT-CARD******** */}
 
-      <div className="flex items-center justify-center pb-10">
-        <div className="flex  items-center justify-between w-[1050px] max-xl:w-[750px]  max-md:flex-col gap-5">
-          <div className="flex flex-col items-center justify-center ">
+      <div className="flex items-center justify-center pb-10 bg-yahia-800 rounded-md  ">
+        <div className="flex  items-center justify-between w-[1050px] max-xl:w-[750px]  max-md:flex-col gap-5  ">
+          <div className="flex flex-col items-center justify-center border rounded-md  ">
             <div
               className="w-[500px] h-[500px] flex justify-center items-center mx-auto
             max-xl:w-[350px] max-xl:h-[300px] max-md:w-[450px] max-sm:w-[340px]
@@ -81,7 +81,7 @@ const Catalog = () => {
             >
               <Image
                 src={shop}
-                className="h-[100%] w-full mx-auto object-left object-cover  "
+                className="h-[100%] w-full mx-auto object-left object-cover rounded-md  "
                 alt="dashboard"
               />
             </div>
@@ -116,7 +116,7 @@ const Catalog = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center ">
+          <div className="flex flex-col items-center justify-center border rounded-md">
             <div
               className="w-[500px] h-[500px] flex justify-center items-center mx-auto
             max-xl:w-[350px] max-xl:h-[300px] max-md:w-[450px] max-sm:w-[340px]
@@ -124,7 +124,7 @@ const Catalog = () => {
             >
               <Image
                 src={grill}
-                className="h-[100%] w-full mx-auto object-left object-cover  "
+                className="h-[100%] w-full mx-auto object-left object-cover rounded-md  "
                 alt="dashboard"
               />
             </div>
@@ -161,7 +161,7 @@ const Catalog = () => {
         </div>
       </div>
       <button
-        className="flex items-center justify-center m-auto  bg-gradient-to-r from-yellow-600 to-red-600 py-3 px-10 rounded-md text-white
+        className="flex items-center justify-center m-auto  bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 hover:text-yahia-500 duration-300 py-3 px-10 rounded-md text-white
       font-bold"
       >
         Projects <IoIosArrowForward className="font-bold text-2xl" />

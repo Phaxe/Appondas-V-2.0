@@ -8,7 +8,7 @@ import ServSec from "./ServSec";
 const ServicePage = () => {
   const [toggle, setToggle] = useState(1);
   return (
-    <div className="w-full h-full flex flex-col gap-10 bg-yahia-500 ">
+    <div className="w-full h-full flex flex-col gap-10 bg-yahia-700 ">
       <div className="relative">
         <Image src={Office} className="h-[700px] object-cover" />
         <div className="absolute top-2/4 left-40">
@@ -32,7 +32,7 @@ const ServicePage = () => {
             <ul className="border rounded-lg flex flex-col ">
               {ServiceData.map(({ Category, id }) => (
                 <button
-                  className="text-xl text-left focus:bg-gray-400 focus:font-semibold  hover:bg-gray-200 py-5 px-5"
+                  className={ toggle=== 1 ? "text-xl text-left  first:bg-gray-400 first:font-semibold  hover:bg-gray-200 py-5 px-5" : "text-xl text-left  focus:bg-gray-400 focus:font-semibold  hover:bg-gray-200 py-5 px-5"}
                   onClick={() => setToggle(id)}
                 >
                   {Category}

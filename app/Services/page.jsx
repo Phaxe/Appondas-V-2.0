@@ -1,20 +1,21 @@
-import React from "react";
 import Footer from "@/components/footer/Footer";
 import NavBar from "@/components/navbar/Navbar";
+import React from "react";
 import ServicePage from "./ServicePage";
-import Testemoni from "../pages/testemoni/Testemoni";
 import Catalog from "../pages/catalog/Catalog";
+import Testemoni from "../pages/testemoni/Testemoni";
 
-const layout = () => {
+const Services = () => {
   return (
-    <div>
-      <NavBar />
-      <ServicePage />
+    <div className="bg-yahia-700">
+   <NavBar />
+      <ServicePage/>
       <Catalog/>
       <Testemoni />
       <Footer />
+      
     </div>
   );
 };
 
-export default layout;
+export default Services;

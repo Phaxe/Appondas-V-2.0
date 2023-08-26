@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Tech = () => {
   return (
-    <div className="w-[1050px] flex flex-col items-center justify-center py-14 m-auto bg-white
+    <div className="bg-white w-[1500px] border rounded-md">
+  <div className="w-[1050px] flex flex-col items-center justify-center py-14 m-auto bg-white
     max-lg:w-[800px] max-md:w-[550px] max-sm:w-[360px]">
       <div className="mb-10">
         <h1 className="text-center py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl">
@@ -29,6 +30,8 @@ const Tech = () => {
         </ul>
       </div>
     </div>
+    </div>
+  
   );
 };
 

@@ -4,15 +4,16 @@ import { BiSolidQuoteLeft } from "react-icons/bi";
 import { BsFillStarFill, BsStar } from "react-icons/bs";
 const Testemoni = () => {
   return (
-    <div
+   <div className="bg-yahia-800 w-[1500px] m-auto border border-transparent rounded-md"> 
+     <div
       id='portoflio'
-      className='bg-white h-full text-center py-14  w-[1050px] m-auto max-lg:w-[750px] max-md:w-[360px]'>
+      className='bg-yahia-800 h-full text-center py-14  w-[1050px] m-auto max-lg:w-[750px] max-md:w-[360px]'>
       <div className='py-5'>
-        <h1 className='text-3xl py-3 font-medium '>
+        <h1 className='text-3xl py-3 font-medium bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700 '>
           Business leaders from leading companies have <br /> trusted Appondas
           to build impactful WebApps.
         </h1>
-        <span className='py-3'>
+        <span className='py-3 text-white'>
           Companies from fintech, healthcare, education, game dev, IoT and
           martech work <br /> with us to grow their business through great
           software.
@@ -60,8 +61,8 @@ const Testemoni = () => {
               />
             </div>
             <div className="py-3 px-3">
-              <h1 className='flex self-start font-medium'>Yahia Altohamy</h1>
-              <p className="">
+              <h1 className='flex self-start font-medium text-white'>Yahia Altohamy</h1>
+              <p className="text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 odit autem molestiae!.
               </p>
@@ -108,8 +109,8 @@ const Testemoni = () => {
               />
             </div>
             <div className="py-3 px-3">
-              <h1 className='flex self-start font-medium'>Yahia Altohamy</h1>
-              <p className="">
+              <h1 className='flex self-start font-medium text-white' >Yahia Altohamy</h1>
+              <p className="text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 odit autem molestiae!.
               </p>
@@ -156,8 +157,8 @@ const Testemoni = () => {
               />
             </div>
             <div className="py-3 px-3">
-              <h1 className='flex self-start font-medium'>Yahia Altohamy</h1>
-              <p className="">
+              <h1 className='flex self-start font-medium text-white'>Yahia Altohamy</h1>
+              <p className="text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 odit autem molestiae!.
               </p>
@@ -203,8 +204,8 @@ const Testemoni = () => {
               />
             </div>
             <div className="py-3 px-3">
-              <h1 className='flex self-start font-medium'>Yahia Altohamy</h1>
-              <p className="">
+              <h1 className='flex self-start font-medium text-white' >Yahia Altohamy</h1>
+              <p className="text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
                 odit autem molestiae!.
               </p>
@@ -215,6 +216,7 @@ const Testemoni = () => {
        
       </div>
     </div>
+   </div>
   );
 };
 

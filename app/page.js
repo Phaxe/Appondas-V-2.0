@@ -7,19 +7,19 @@ import About from "./about/page";
 import Tech from "@/components/tech-stack/Tech";
 import Testemoni from "./pages/testemoni/Testemoni";
 import TechStack from "@/components/tech-stack/TechStack";
+import Whyus from "@/components/why-us/Why-us";
 
 
 
 export default function Home() {
   return (
-   <div>
+   <div className="bg-yahia-700 w-full">
     <Navbar/>
     <Banner/>
     <Features/>
+    <Whyus/>
     <Catalog/>
     <TechStack/>
-  
-    <About/>
     <Testemoni/>
     <Footer/>
    </div>

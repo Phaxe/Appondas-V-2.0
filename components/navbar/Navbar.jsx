@@ -18,8 +18,8 @@ function NavBar() {
       <nav
         className={`${
           isScrolled
-            ? "w-full h-[70px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10"
-            : " w-full h-[70px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7]"
+            ? "w-full h-[60px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10"
+            : " w-full h-[60px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7]"
         }`}>
         <div
           className={`${
@@ -28,7 +28,7 @@ function NavBar() {
               : "justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 "
           }`}>
           <div>
-            <div className='flex items-center justify-between  md:py-5 md:block max-md:py-3'>
+            <div className='flex items-center justify-between  md:py-3 md:block max-md:py-3'>
               {/* LOGO */}
               <Link href='/'>
                 <Image
@@ -60,42 +60,63 @@ function NavBar() {
               }`}>
               <ul className='h-screen items-center justify-center  md:h-auto  md:flex  '>
                 <li
-                  className=' text-xl text-white py-3 md:px-4 text-center max-md:border-b-2  rounded-none
+                  className=' text-xl text-white py-1 md:px-4 text-center max-md:border-b-2  rounded-none
                    border-white 
-                 hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='/' onClick={() => setNavbar(!navbar)}>
+                 hover:text-white font-semibold  hover:rounded-md'>
+                  <Link className="font-semibold 
+                  duration-300 hover:duration-300 hover:underline
+                  hover:underline-offset-2  hover:bg-clip-text
+                  hover:text-transparent decoration-orange-500
+                  hover:bg-gradient-to-r from-yellow-600 to-red-600 " 
+                     href='/' onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
                 <li
-                  className=' text-xl text-white py-3  md:px-4 text-center  
+                  className=' text-xl text-white py-1  md:px-4 text-center  
                    border-white max-md:border-b-2  rounded-none
-                 hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='/Services' onClick={() => setNavbar(!navbar)}>
+                 hover:text-white font-semi-bold '>
+                  <Link className="font-semibold 
+                  duration-300 hover:duration-300 hover:underline
+                  hover:underline-offset-2  hover:bg-clip-text
+                  hover:text-transparent decoration-orange-500
+                  hover:bg-gradient-to-r from-yellow-600 to-red-600 "  href='/Services' onClick={() => setNavbar(!navbar)}>
                     Services
                   </Link>
                 </li>
                 <li
-                  className=' text-xl text-white py-3 md:px-4 text-center 
+                  className=' text-xl text-white py-1 md:px-4 text-center 
                    border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='/Services' onClick={() => setNavbar(!navbar)}>
+                 hover:text-white font-semibold'>
+                  <Link className="font-semibold 
+                  duration-300 hover:duration-300 hover:underline
+                  hover:underline-offset-2  hover:bg-clip-text
+                  hover:text-transparent decoration-orange-500
+                  hover:bg-gradient-to-r from-yellow-600 to-red-600 "  href='/Projects' onClick={() => setNavbar(!navbar)}>
                     Projects
                   </Link>
                 </li>
                 <li
-                  className=' text-xl text-white py-3  md:px-4 text-center  
+                  className=' text-xl text-white py-1  md:px-4 text-center  
                    border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-bold duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='#portoflio' onClick={() => setNavbar(!navbar)}>
+                 hover:text-white font-semibold'>
+                  <Link className="font-semibold 
+                  duration-300 hover:duration-300 hover:underline
+                  hover:underline-offset-2  hover:bg-clip-text
+                  hover:text-transparent decoration-orange-500
+                  hover:bg-gradient-to-r from-yellow-600 to-red-600 "  href='/about' onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
                 <li
-                  className=' text-xl text-white py-3  md:px-4 text-center   
+                  className=' text-xl text-white py-1  md:px-4 text-center   
                    border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-bold duration-300 hover:duration-300 hover:bg-gradient-to-r from-yellow-600 to-red-600 hover:rounded-md'>
-                  <Link href='#contact' onClick={() => setNavbar(!navbar)}>
+                 hover:text-white font-semibold'>
+                  <Link className="font-semibold 
+                  duration-300 hover:duration-300 hover:underline
+                  hover:underline-offset-2  hover:bg-clip-text
+                  hover:text-transparent decoration-orange-500
+                  hover:bg-gradient-to-r from-yellow-600 to-red-600 "  href='#contact' onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>

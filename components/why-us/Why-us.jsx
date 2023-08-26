@@ -8,11 +8,11 @@ import { MdSecurity } from "react-icons/md";
 // import {FaEarthAsia} from 'react-icons/fa'
 const Whyus = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-white py-10 w-full">
-      <h1 className="text-center py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl">
+    <div className="flex flex-col items-center justify-center bg-white  w-[1500px] py-10 m-auto border rounded-md">
+      <h1 className="text-center text-yahia-700 py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl">
         Why Appondas ?
       </h1>
-      <p className="text-center text-xl w-[60%] m-auto max-sm:text-base pb-5">
+      <p className="text-center text-yahia-700 text-xl w-[60%] m-auto max-sm:text-base pb-5">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse animi
         voluptatum molestiae quis quo? Mollitia vitae temporibus doloremque
         incidunt saepe itaque modi necessitatibus, tempora voluptatum, similique
@@ -28,18 +28,18 @@ const Whyus = () => {
          border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <MdSpeed className="text-8xl max-lg:text-5xl" />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <MdSpeed className="text-8xl max-lg:text-5xl text-orange-500" />
+          <p className="text-2xl text-center  max-lg:text-xl text-orange-500">
             Faster <br /> Development
           </p>
         </div>
         <div
-          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0
+          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0 text-yahia-500
           border-2 rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <AiOutlineFundProjectionScreen className="text-8xl max-lg:text-5xl" />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <AiOutlineFundProjectionScreen className="text-8xl max-lg:text-5xl text-yahia-500" />
+          <p className="text-2xl text-center   max-lg:text-xl">
             300+ <br /> Projects Delivered
           </p>
         </div>
@@ -48,18 +48,18 @@ const Whyus = () => {
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <GiPencilBrush className="text-8xl  max-lg:text-5xl" />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <GiPencilBrush className="text-8xl  max-lg:text-5xl text-orange-500" />
+          <p className="text-2xl text-center  max-lg:text-xl text-orange-500">
             Minimalistic <br /> Design
           </p>
         </div>
         <div
-          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0
+          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0 
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <BsBuildingFillGear className="text-8xl max-lg:text-5xl " />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <BsBuildingFillGear className="text-8xl max-lg:text-5xl text-yahia-500" />
+          <p className="text-2xl text-center  max-lg:text-xl text-yahia-500">
             Enterprise <br /> Enabled
           </p>
         </div>
@@ -74,29 +74,29 @@ const Whyus = () => {
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <IoIosPeople className="text-8xl  max-lg:text-5xl " />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <IoIosPeople className="text-8xl  max-lg:text-5xl text-orange-500" />
+          <p className="text-2xl text-center  max-lg:text-xl text-orange-500">
             10+ Years <br /> Of Experience
           </p>
         </div>
 
         <div
-          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0
+          className="flex flex-col items-center justify-center mt-6 max-sm:mt-0 text-yahia-500
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <GiWorld className="text-8xl max-lg:text-5xl" />
+          <GiWorld className="text-8xl max-lg:text-5xl text-yahia-500" />
           <p className="text-2xl text-center  max-lg:text-xl">
             20+ <br /> Countries
           </p>
         </div>
         <div
-          className="flex flex-col items-center justify-center mt-0
+          className="flex flex-col items-center justify-center mt-0 text-orange-500
           border-2  rounded  shadow-lgpx-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <GiPuzzle className="text-8xl  max-lg:text-5xl " />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <GiPuzzle className="text-8xl  max-lg:text-5xl text-orange-500 " />
+          <p className="text-2xl text-center  max-lg:text-xl text-orange-500">
             Seamless <br /> Backend Integration
           </p>
         </div>
@@ -105,17 +105,17 @@ const Whyus = () => {
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
          max-lg:w-[175px]  max-lg:h-[175px]"
         >
-          <MdSecurity className="text-8xl max-lg:text-5xl" />
-          <p className="text-2xl text-center  max-lg:text-xl">
+          <MdSecurity className="text-8xl max-lg:text-5xl text-yahia-500" />
+          <p className="text-2xl text-center  max-lg:text-xl text-yahia-500">
             Optimal <br /> security
           </p>
         </div>
       </div>
       <button
-        className="flex items-center justify-center bg-gradient-to-r from-yellow-600 to-red-600 py-3 px-10 rounded-md text-white
+        className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700 py-3 px-10 rounded-md text-white hover:text-orange-500 duration-300
       font-bold mt-5"
       >
-        About Us <IoIosArrowForward className="font-bold text-2xl" />
+        About Us <IoIosArrowForward className="font-bold text-2xl " />
       </button>
     </div>
   );

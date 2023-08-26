@@ -1,14 +1,15 @@
 import Image from 'next/image'
+import { IoIosPeople, IoIosArrowForward } from "react-icons/io";
 import React from 'react'
 import mobile from '../../public/mobile.png'
 import web from '../../public/web.png'
 import redo from '../../public/redo.png'
 const ServiceCard = () => {
   return (
-   <div className='h-full  w-full flex-col gap-5 flex items-center justify-center  py-10  '>
-    <div className='w-[100%] px-10 2xl:w-[63%] relative'>
+   <div className='h-full  w-full flex-col gap-5 flex items-center justify-center  py-10  mb-10  '>
+    <div className='w-[100%] px-10 2xl:w-[63%] relative '>
         <div className=' left-0 top-0 right-0 bottom-0 w-full h-full object-cover'>
-        <Image src={mobile} alt='mobile' className='h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px] '/>
+        <Image src={mobile} alt='mobile' className='rounded-md h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px]  '/>
         </div>
         <div 
         className=' flex-col bg-[hsla(0,0%,100%,.06)] absolute justify-center items-center first-letter: top-20 w-[350px] left-[58%] h-[400px]
@@ -23,7 +24,7 @@ const ServiceCard = () => {
     </div>
     <div className='w-[100%] px-10 2xl:w-[63%] relative'>
         <div className=' left-0 top-0 right-0 bottom-0 w-full h-full object-cover'>
-        <Image src={web} alt='mobile' className='h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px] '/>
+        <Image src={web} alt='mobile' className='rounded-md h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px] '/>
         </div>
         <div 
         className=' flex-col bg-[hsla(0,0%,100%,.06)] absolute justify-center items-center first-letter: top-20 w-[350px] left-[10%] h-[400px]
@@ -39,7 +40,7 @@ const ServiceCard = () => {
     </div>
     <div className='w-[100%] px-10 2xl:w-[63%] relative'>
         <div className=' left-0 top-0 right-0 bottom-0 w-full h-full object-cover'>
-        <Image src={redo} alt='mobile' className='h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px] '/>
+        <Image src={redo} alt='mobile' className='rounded-md h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-fill max-sm:h-[200px] '/>
         </div>
         <div 
         className=' flex-col bg-[hsla(0,0%,100%,.06)] absolute justify-center items-center first-letter: top-20 w-[350px] left-[58%] h-[400px]
@@ -52,7 +53,13 @@ const ServiceCard = () => {
             </div>
         </div>
     </div>
-
+    <button
+        className="flex items-center justify-center bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 py-3 px-10 rounded-md text-white hover:text-yahia-500 duration-300
+      font-bold mt-5
+"
+      >
+        Services <IoIosArrowForward className="font-bold text-2xl " />
+      </button>
    </div>
  
    
