@@ -5,6 +5,7 @@ import shop from "../../../public/axios.png";
 import grill from "../../../public/grill.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsArrowRight } from "react-icons/bs";
+import Link from "next/link";
 const Catalog = () => {
   return (
     <div id="catalog" className=" w-[1500px] bg-yahia-800 m-auto py-10 my-10 border border-transparent  rounded-md">
@@ -160,11 +161,14 @@ const Catalog = () => {
           </div>
         </div>
       </div>
-      <button
-        className="flex items-center justify-center m-auto  bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 hover:text-yahia-500 duration-300 py-3 px-10 rounded-md text-white
-      font-bold"
+      <button className="m-auto flex "
+       
       >
+        <Link href="/Projects"  className="flex items-center justify-center m-auto  bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 hover:text-yahia-500 duration-300 py-3 px-10 rounded-md text-white
+      font-bold">
         Projects <IoIosArrowForward className="font-bold text-2xl" />
+        </Link>
+       
       </button>
     </div>
   );

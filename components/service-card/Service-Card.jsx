@@ -4,6 +4,7 @@ import React from 'react'
 import mobile from '../../public/mobile.png'
 import web from '../../public/web.png'
 import redo from '../../public/redo.png'
+import Link from 'next/link';
 const ServiceCard = () => {
   return (
    <div className='h-full  w-full flex-col gap-5 flex items-center justify-center  py-10  mb-10  '>
@@ -54,11 +55,13 @@ const ServiceCard = () => {
         </div>
     </div>
     <button
-        className="flex items-center justify-center bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 py-3 px-10 rounded-md text-white hover:text-yahia-500 duration-300
+
+      ><Link         className="flex items-center justify-center bg-gradient-to-r from-orange-700 via-orange-400 to-orange-700 py-3 px-10 rounded-md text-white hover:text-yahia-500 duration-300
       font-bold mt-5
-"
-      >
-        Services <IoIosArrowForward className="font-bold text-2xl " />
+" href="/Services">
+       Services <IoIosArrowForward className="font-bold text-2xl " />
+      </Link>
+       
       </button>
    </div>
  

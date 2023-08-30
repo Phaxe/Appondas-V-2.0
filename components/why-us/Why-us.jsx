@@ -5,6 +5,7 @@ import { GiPencilBrush, GiPuzzle, GiWorld } from "react-icons/gi";
 import { BsBuildingFillGear } from "react-icons/bs";
 import { IoIosPeople, IoIosArrowForward } from "react-icons/io";
 import { MdSecurity } from "react-icons/md";
+import Link from "next/link";
 // import {FaEarthAsia} from 'react-icons/fa'
 const Whyus = () => {
   return (
@@ -112,10 +113,13 @@ const Whyus = () => {
         </div>
       </div>
       <button
-        className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700 py-3 px-10 rounded-md text-white hover:text-orange-500 duration-300
-      font-bold mt-5"
+        
       >
-        About Us <IoIosArrowForward className="font-bold text-2xl " />
+        <Link className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700 py-3 px-10 rounded-md text-white hover:text-orange-500 duration-300
+      font-bold mt-5" href='/about'>
+         About Us <IoIosArrowForward className="font-bold text-2xl " />
+        </Link>
+       
       </button>
     </div>
   );

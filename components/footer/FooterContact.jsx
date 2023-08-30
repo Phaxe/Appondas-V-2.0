@@ -9,7 +9,10 @@ const FooterContact = () => {
         className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700  py-3 px-10 rounded-md text-white
       font-bold mt-5 hover:text-orange-500 duration-300"
       >
-        Contact Us
+        <Link href="/Contact">
+        Get in Touch
+        </Link>
+       
       </button>
   </div>
   )

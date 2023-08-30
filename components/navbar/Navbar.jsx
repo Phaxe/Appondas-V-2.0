@@ -139,11 +139,11 @@ function NavBar() {
                 >
                   <Link
                   className={` ${
-                    router === "/contact"
+                    router === "/Contact"
                       ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
                       : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
                   }`}
-                    href="/contact"
+                    href="/Contact"
                     onClick={() => setNavbar(!navbar)}
                   >
                     Contact
