@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Office from "../../public/office.jpg";
 import {GiCheckMark} from 'react-icons/gi'
 import { ServiceData } from "../Data.js";
-import ServSec from "./ServSec";
+
 const ServicePage = () => {
   const [toggle, setToggle] = useState(1);
   return (
@@ -68,7 +68,7 @@ const ServicePage = () => {
           ))}
         </div>
       </div>
-      <ServSec/>
+      
     </div>
   );
 };

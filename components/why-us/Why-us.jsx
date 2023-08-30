@@ -8,7 +8,7 @@ import { MdSecurity } from "react-icons/md";
 // import {FaEarthAsia} from 'react-icons/fa'
 const Whyus = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-white  w-[1500px] py-10 m-auto border rounded-md">
+    <div className="flex flex-col items-center justify-center bg-white  w-[1500px] py-10 m-auto border rounded-md mb-10">
       <h1 className="text-center text-yahia-700 py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl">
         Why Appondas ?
       </h1>

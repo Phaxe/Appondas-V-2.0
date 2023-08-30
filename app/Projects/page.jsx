@@ -4,15 +4,22 @@ import React from "react";
 
 import Catalog from "../pages/catalog/Catalog";
 import Testemoni from "../pages/testemoni/Testemoni";
+import ProjectsBanner from "./ProjectsBanner";
+import Portoflio from "./Portoflio";
+import FooterContact from "@/components/footer/FooterContact";
+import Whyus from "@/components/why-us/Why-us";
 
 const Projects = () => {
   return (
-    <div>   <NavBar />
+    <div className="bg-yahia-700">
+      <NavBar />
+      <ProjectsBanner />
+      <Portoflio />
+      <Whyus/>
+      <Testemoni />
+      <Footer />
+    </div>
+  );
+};
 
-    <Catalog/>
-    <Testemoni />
-    <Footer /></div>
-  )
-}
-
-export default Projects
+export default Projects;

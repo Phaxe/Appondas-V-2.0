@@ -4,6 +4,7 @@ import React from "react";
 import ServicePage from "./ServicePage";
 import Catalog from "../pages/catalog/Catalog";
 import Testemoni from "../pages/testemoni/Testemoni";
+import ServSec from "./ServSec";
 
 const Services = () => {
   return (
@@ -11,6 +12,7 @@ const Services = () => {
    <NavBar />
       <ServicePage/>
       <Catalog/>
+      <ServSec/>
       <Testemoni />
       <Footer />
       

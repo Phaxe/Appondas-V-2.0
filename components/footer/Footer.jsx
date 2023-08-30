@@ -57,7 +57,7 @@ const Footer = () => {
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Mobile Development</li>
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Cloud Consulting </li>
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Redesgin Service</li>
-            <li className='text-white'>Contact</li>
+
           </ul>
         </div>
         <div>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='w-[100%] text-yahia-500 bg-white   flex items-center justify-center m-auto'>
+      <div className='w-[100%] text-yahia-500 bg-white font-semibold   flex items-center justify-center m-auto'>
         <p>© 2023. Appondas LLC. All rights reserved.</p>
       </div>
     </div>
