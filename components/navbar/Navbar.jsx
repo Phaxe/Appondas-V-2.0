@@ -19,15 +19,15 @@ function NavBar() {
       <nav
         className={`${
           isScrolled
-            ? "w-full h-[60px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10"
-            : " w-full h-[60px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7]"
+            ? "w-full h-[60px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10 max-md:h-[80px] "
+            : " w-full h-[60px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7] max-md:h-[80px]"
         }`}
       >
         <div
           className={`${
             navbar
-              ? "justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 max=md:bg-yahia-500/[0.7]"
-              : "justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 "
+              ? "justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 max-md:bg-yahia-500/[0.9]"
+              : "justify-between items-center px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8  "
           }`}
         >
           <div>
@@ -65,15 +65,15 @@ function NavBar() {
             >
               <ul className="h-screen items-center justify-center  md:h-auto  md:flex  ">
                 <li
-                  className=" text-xl text-white py-1 md:px-4 text-center max-md:border-b-2  rounded-none
-                   border-white 
+                  className=" text-xl text-white py-1 md:px-4 text-center max-sm:text-left   rounded-none
+                   border-white  max-sm:pb-10
                  hover:text-white font-semibold  hover:rounded-md"
                 >
                   <Link
                   className={` ${
                     router === "/"
-                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
-                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
+                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 max-sm:text-4xl  "
+                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600  max-sm:text-4xl"
                   }`}
                     href="/"
                     onClick={() => setNavbar(!navbar)}
@@ -82,16 +82,16 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-xl text-white py-1  md:px-4 text-center  
-                   border-white max-md:border-b-2  rounded-none
-                 hover:text-white font-semibold "
+                  className=" text-xl text-white py-1 md:px-4 text-center max-sm:text-left   rounded-none
+                   border-white  max-sm:pb-10
+                 hover:text-white font-semibold  hover:rounded-md"
                 >
                   <Link
-                    className={` ${
-                      router === "/Services"
-                        ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
-                        : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
-                    }`}
+                  className={` ${
+                    router === "/Services"
+                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 max-sm:text-4xl  "
+                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600  max-sm:text-4xl"
+                  }`}
                     href="/Services"
                     onClick={() => setNavbar(!navbar)}
                   >
@@ -99,15 +99,15 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-xl text-white py-1 md:px-4 text-center 
-                   border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-semibold"
+                  className=" text-xl text-white py-1 md:px-4 text-center max-sm:text-left   rounded-none
+                   border-white  max-sm:pb-10
+                 hover:text-white font-semibold  hover:rounded-md"
                 >
                   <Link
                   className={` ${
                     router === "/Projects"
-                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
-                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
+                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 max-sm:text-4xl  "
+                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600  max-sm:text-4xl"
                   }`}
                     href="/Projects"
                     onClick={() => setNavbar(!navbar)}
@@ -116,15 +116,15 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-xl text-white py-1  md:px-4 text-center  
-                   border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-semibold"
+                  className=" text-xl text-white py-1 md:px-4 text-center max-sm:text-left   rounded-none
+                   border-white  max-sm:pb-10
+                 hover:text-white font-semibold  hover:rounded-md"
                 >
                   <Link
                   className={` ${
                     router === "/about"
-                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
-                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
+                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 max-sm:text-4xl  "
+                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600  max-sm:text-4xl"
                   }`}
                     href="/about"
                     onClick={() => setNavbar(!navbar)}
@@ -133,15 +133,15 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-xl text-white py-1  md:px-4 text-center   
-                   border-white max-md:border-b-2   rounded-none
-                 hover:text-white font-semibold"
+                  className=" text-xl text-white py-1 md:px-4 text-center max-sm:text-left   rounded-none
+                   border-white  max-sm:pb-10
+                 hover:text-white font-semibold  hover:rounded-md"
                 >
                   <Link
                   className={` ${
                     router === "/Contact"
-                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 "
-                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600 "
+                      ? "bg-clip-text text-transparent text-transparent decoration-orange-500 bg-gradient-to-r from-yellow-600 to-red-600 underline underline-offset-2 max-sm:text-4xl  "
+                      : " font-semibold duration-300 hover:duration-300 hover:underline  hover:underline-offset-2  hover:bg-clip-text   hover:text-transparent decoration-orange-500 hover:bg-gradient-to-r from-yellow-600 to-red-600  max-sm:text-4xl"
                   }`}
                     href="/Contact"
                     onClick={() => setNavbar(!navbar)}

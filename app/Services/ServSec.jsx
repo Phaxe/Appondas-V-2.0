@@ -2,9 +2,9 @@ import React from "react";
 
 const ServSec = () => {
   return (
-    <div className="w-[1500px] h-full m-auto  bg-white mb-[5rem] px-[70px] py-[40px]">
+    <div className=" w-[1500px] h-full m-auto  bg-white mb-[5rem] px-[70px] py-[40px]">
       <h1 className="text-4xl pb-5">Appondas's guarantees</h1>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 max-lg:grid-cols-1">
         <div className=" px-5 py-5"> 
           <h1 className="pb-5 text-xl">High-quality practices</h1>
           <p>

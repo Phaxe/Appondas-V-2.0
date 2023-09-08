@@ -11,7 +11,7 @@ import Gardens from '../../public/gardens.png'
 
 const Portoflio = () => {
   return (
-<div className='m-auto w-[1500px] my-10 '>
+<div className='m-auto w-[1500px] '>
 <div className='py-5 flex flex-col items-center justify-center text-center'>
         <h1 className='text-3xl py-3 font-medium bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700 '>
         WE BRING IDEAS TO LIFE
@@ -59,7 +59,7 @@ const Portoflio = () => {
         <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
           <Image
             src={shop}
-            className="h-[100%] w-full mx-auto object-left object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-left object-cover rounded-md   hover:cursor-pointer hover:scale-105 duration-300 "
             alt="dashboard"
           />
         </div>
@@ -71,7 +71,7 @@ const Portoflio = () => {
     <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
           <Image
             src={Resto}
-            className="h-[100%] w-full mx-auto object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-cover rounded-md hover:cursor-pointer hover:scale-105 duration-300"
             alt="dashboard"
           />
         </div>
@@ -148,7 +148,7 @@ const Portoflio = () => {
         <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
           <Image
             src={Dashboard}
-            className="h-[100%] w-full mx-auto object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-cover rounded-md hover:cursor-pointer hover:scale-105 duration-300 "
             alt="dashboard"
           />
         </div>
@@ -163,10 +163,10 @@ const Portoflio = () => {
     
     <div className="flex items-center  justify-between py-10 gap-10 ">
         
-    <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
+    <div className="w-[1000px] h-full flex justify-center items-center mx-auto ">
           <Image
             src={Rental}
-            className="h-[100%] w-full mx-auto object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-cover rounded-md hover:cursor-pointer hover:scale-105 duration-300 "
             alt="dashboard"
           />
         </div>
@@ -247,7 +247,7 @@ const Portoflio = () => {
         <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
           <Image
             src={Gyms}
-            className="h-[100%] w-full mx-auto object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-cover rounded-md  hover:cursor-pointer hover:scale-105 duration-300"
             alt="dashboard"
           />
         </div>
@@ -265,7 +265,7 @@ const Portoflio = () => {
     <div className="w-[1000px] h-full flex justify-center items-center mx-auto">
           <Image
             src={Gardens}
-            className="h-[100%] w-full mx-auto object-cover rounded-md  "
+            className="h-[100%] w-full mx-auto object-cover rounded-md hover:cursor-pointer hover:scale-105 duration-300 "
             alt="dashboard"
           />
         </div>

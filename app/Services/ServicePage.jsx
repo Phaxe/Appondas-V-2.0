@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Office from "../../public/office.jpg";
 import {GiCheckMark} from 'react-icons/gi'
 import { ServiceData } from "../Data.js";
+import { IoIosPeople, IoIosArrowForward } from "react-icons/io";
+import Link from "next/link";
 
 const ServicePage = () => {
   const [toggle, setToggle] = useState(1);
@@ -59,9 +61,13 @@ const ServicePage = () => {
                     <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/> {item.PointB}</p>
                     <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/> {item.PointC}</p>
                   </div>
-                  <button className="py-2 ml-10 text-center bg-yellow-400 font-medium w-[200px]">
-                    See More
-                  </button>
+                
+                  <button>
+        <Link className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700 py-3 px-5 ml-10 rounded-md text-white hover:text-orange-500 duration-300
+      font-bold mt-5 w-[50%] " href='/about'>
+         See More <IoIosArrowForward className="font-bold text-2xl " />
+        </Link>
+      </button>
                 </div>
               ) : null}
             </>

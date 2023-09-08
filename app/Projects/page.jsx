@@ -11,12 +11,15 @@ import Whyus from "@/components/why-us/Why-us";
 
 const Projects = () => {
   return (
-    <div className="bg-yahia-700">
+    <div className="bg-yahia-700 flex flex-col items-center justify-center">
       <NavBar />
       <ProjectsBanner />
       <Portoflio />
+     
       <Whyus/>
-      <Testemoni />
+      
+    
+      {/* <Testemoni /> */}
       <Footer />
     </div>
   );

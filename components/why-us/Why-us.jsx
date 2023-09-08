@@ -6,22 +6,25 @@ import { BsBuildingFillGear } from "react-icons/bs";
 import { IoIosPeople, IoIosArrowForward } from "react-icons/io";
 import { MdSecurity } from "react-icons/md";
 import Link from "next/link";
-// import {FaEarthAsia} from 'react-icons/fa'
+
 const Whyus = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-white  w-[1500px] py-10 m-auto border rounded-md mb-10">
-      <h1 className="text-center text-yahia-700 py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl">
+    <div className="bg-white rounded-md py-5 flex flex-col items-center justify-center responsive">
+   
+      <div className='py-3 flex flex-col items-center justify-center max-lg:px-3'>
+        <h1 className='text-3xl py-3 font-medium text-yahia-700 max-lg:text-xl '>
         Why Appondas ?
-      </h1>
-      <p className="text-center text-yahia-700 text-xl w-[60%] m-auto max-sm:text-base pb-5">
+        </h1>
+        <span className='py-3 xl:px-10 text-yahia-700 text-center max-lg:text-sm'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse animi
-        voluptatum molestiae quis quo? Mollitia vitae temporibus doloremque
-        incidunt saepe itaque modi necessitatibus, tempora voluptatum, similique
+        voluptatum molestiae quis quo? <br /> Mollitia vitae temporibus doloremque
+        incidunt saepe itaque modi necessitatibus, <br /> tempora voluptatum, similique
         eligendi dolorem, aliquam non harum iste minima eius officia.
-      </p>
+        </span>
+      </div>
       <div
         className="flex gap-2 
-      max-lg:grid-cols-2 max-lg:grid max-lg:w-[80%] max-lg:items-center max-lg:place-items-center
+      max-lg:grid-cols-2 max-lg:grid  max-lg:w-[80%] lg:grid max-xl:grid-cols-3 xl:grid-cols-4 max-lg:place-items-center
       max-sm:flex-col max-sm:flex"
       >
         <div
@@ -64,12 +67,6 @@ const Whyus = () => {
             Enterprise <br /> Enabled
           </p>
         </div>
-      </div>
-      <div
-        className="flex gap-2 
-      max-lg:grid-cols-2 max-lg:grid max-lg:w-[80%] max-lg:items-center max-lg:place-items-center
-      max-sm:flex-col max-sm:flex"
-      >
         <div
           className="flex flex-col items-center justify-center mt-2
           border-2  rounded  shadow-lg px-2 py-2 w-[250px] h-[250px]
@@ -112,14 +109,14 @@ const Whyus = () => {
           </p>
         </div>
       </div>
-      <button
-        
-      >
+  
+  
+   
+      <button>
         <Link className="flex items-center justify-center bg-gradient-to-r from-yahia-700 via-yahia-500 to-yahia-700 py-3 px-10 rounded-md text-white hover:text-orange-500 duration-300
       font-bold mt-5" href='/about'>
          About Us <IoIosArrowForward className="font-bold text-2xl " />
         </Link>
-       
       </button>
     </div>
   );
