@@ -11,7 +11,7 @@ const About = () => {
     <div className="bg-yahia-800 flex items-center justify-center flex-col">
       <NavBar/>
       <PagesBanner/>
-      <div className="my-10">
+      <div>
       <AboutContent/>
       </div>
       
