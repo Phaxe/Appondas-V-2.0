@@ -22,7 +22,7 @@ export default function Home() {
     <Porto/>
     {/* <Catalog/> */}
     <TechStack/>
-    {/* <Testemoni/> */}
+    <Testemoni/>
     <Footer/>
    </div>
   )

@@ -11,7 +11,7 @@ import {
 import FooterContact from "./FooterContact";
 const Footer = () => {
   return (
-    <div className="bg-yahia-800 w-full flex flex-col items-center justify-center  mt-10  ">
+    <div className="bg-yahia-800 w-full flex flex-col items-center justify-center   ">
    {/* <FooterContact/> */}
       <div className='w-[1050px] h-full flex items-center justify-between m-auto mt-5 px-5
       max-lg:w-full max-md:w-full max-md:grid max-md:grid-cols-2 max-sm:grid max-sm:grid-cols-1 max-sm:gap-5 max-sm:px-5 max-sm:m-0 max-sm:w-[390px] max-sm:h-full '>
