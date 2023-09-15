@@ -7,12 +7,12 @@ import ContactContainer from './ContactContainer'
 
 const Contact = () => {
   return (
-    <>
+    <div className='bg-yahia-700'>
     <NavBar/>
     <ContactBanner/>
    <ContactContainer/>
     <Footer/>
-    </>
+    </div>
   )
 }
 
