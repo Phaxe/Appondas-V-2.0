@@ -19,7 +19,7 @@ function NavBar() {
       <nav
         className={`${
           isScrolled
-            ? "w-full h-[60px] bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10 max-md:h-[80px] "
+            ? "w-full h-[60px] z-50 bg-yahia-500 fixed top-0 left-0 duration-300 right-0 z-10 max-md:h-[80px] "
             : " w-full h-[60px]  duration-300  fixed top-0 left-0 right-0 z-10 bg-yahia-500/[0.7] max-md:h-[80px]"
         }`}
       >

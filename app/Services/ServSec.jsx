@@ -2,10 +2,10 @@ import React from "react";
 
 const ServSec = () => {
   return (
-    <div className=" w-[1500px] h-full m-auto  bg-white mb-[5rem] px-[70px] py-[40px]">
-      <h1 className="text-4xl pb-5">Appondas's guarantees</h1>
+    <div className="responsive rounded-md h-full m-auto  bg-white mb-[5rem] px-[70px] py-[40px] max-md:px-1 max-md:py-1">
+      <h1 className="text-4xl pb-5 max-md:py-5 max-md:px-5">Appondas's guarantees</h1>
       <div className="grid grid-cols-2 gap-4 max-lg:grid-cols-1">
-        <div className=" px-5 py-5"> 
+        <div className=" px-5 py-5 border-2  rounded  shadow-lg"> 
           <h1 className="pb-5 text-xl">High-quality practices</h1>
           <p>
             In order to apply the most cutting-edge approaches and provide
@@ -13,7 +13,7 @@ const ServSec = () => {
             regularly certified by the most trusted and progressive entities.
           </p>
         </div>
-        <div className=" px-5 py-5">
+        <div className=" px-5 py-5 border-2  rounded  shadow-lg">
           <h1 className="pb-5 text-xl">Customer trust</h1>
           <p>
             Thanks to our high professional standards, effective development
@@ -22,7 +22,7 @@ const ServSec = () => {
             4.9/5 on Clutch.
           </p>
         </div>
-        <div className=" px-5 py-5">
+        <div className=" px-5 py-5 border-2  rounded  shadow-lg">
           <h1 className="pb-5 text-xl">Strategic partnerships</h1>
           <p>
             Appondas's recurring and referring customers prove our reliability
@@ -31,7 +31,7 @@ const ServSec = () => {
             maintenance, or upgrade your existing software.
           </p>
         </div>
-        <div className=" px-5 py-5"> 
+        <div className=" px-5 py-5 border-2  rounded  shadow-lg"> 
           <h1 className="pb-5 text-xl">Individual approach</h1>
           <p>
             Appondas is a supplier of Software Development Services employing

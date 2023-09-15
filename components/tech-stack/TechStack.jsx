@@ -3,10 +3,10 @@ import Image from "next/image";
 import "./Tech.css";
 const TechStack = () => {
   return (
-    <div className="bg-white w-[1500px] m-auto mb-10 border rounded-md">
+    <div className="bg-white responsive m-auto mb-10 border rounded-md">
       <div
-        className="w-[1050px] flex flex-col items-center justify-center py-14 m-auto bg-white
-    max-lg:w-[800px] max-md:w-[550px] max-sm:w-[360px]"
+        className="flex flex-col items-center justify-center py-14 
+    "
       >
         <div className="mb-10">
           <h1 className="text-center py-5 text-3xl font-medium w-[80%] m-auto max-sm:text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-900 via-sky-600 to-sky-900">

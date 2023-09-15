@@ -1,13 +1,17 @@
+'use client'
 import ServiceCard from "@/components/service-card/Service-Card";
 import Whyus from "@/components/why-us/Why-us";
 import React from "react";
-
+import { motion } from "framer-motion";
 const Features = () => {
   return (
     <div className="bg-yahia-800 my-10  flex flex-col items-center justify-center responsive  rounded-md">
     <div id='features' className=" flex flex-col items-center justify-center align-middle w-full relative ">
   
-      <div className='py-3 flex flex-col items-center justify-center max-lg:px-3'>
+      <motion.div 
+      
+      transition={{ type: "spring", stiffness: 100 }}
+      className='py-3 flex flex-col items-center justify-center max-lg:px-3'>
         <h1 className='text-3xl py-3 font-medium bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700 max-lg:text-xl '>
         Brilliant web design, simplified
         </h1>
@@ -18,7 +22,7 @@ const Features = () => {
           vision for your website. <br /> If you're building a small business website,
           online store, or otherwise, Mailchimp can simplify the process.
         </span>
-      </div>
+      </motion.div>
     </div>
     <ServiceCard/>
     

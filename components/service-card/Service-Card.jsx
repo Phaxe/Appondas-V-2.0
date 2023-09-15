@@ -5,10 +5,12 @@ import mobile from '../../public/mobile.png'
 import web from '../../public/web.png'
 import redo from '../../public/redo.png'
 import Link from 'next/link';
+import { motion } from "framer-motion"
 const ServiceCard = () => {
   return (
    <div className='h-full  w-full flex-col gap-5 flex items-center justify-center  py-10  mb-10 max-sm:w-[390px] max-sm:py-5  '>
-       <div className='w-[100%] px-5   relative max-sm:w-[100%] '>
+       <div 
+       className='w-[100%] px-5   relative max-sm:w-[100%] '>
         <div className=' left-0 top-0 right-0 bottom-0 w-full h-full object-cover'>
         <Image src={mobile} alt='mobile' className='rounded-md h-[550px] w-full object-cover max-lg:h-[350px] max-sm:object-cover  max-sm:m-auto max-sm:h-[300px]  '/>
         </div>
