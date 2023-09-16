@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {GiCheckMark} from 'react-icons/gi'
 import { ServiceData } from "../Data.js";
+import { BiSolidDownArrow, BiSolidUpArrow } from "react-icons/bi";
 
 const Accordion = ({ question, answer }) => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -26,11 +27,12 @@ const Accordion = ({ question, answer }) => {
          <motion.div
         
          key="question"
-         className="rounded-tr-md relative z-20  rounded-br-md shadow-sm px-1 py-2 bg-gray-200 cursor-pointer font-open border-l-2 border-yellow-500 rounded-md z-0 lg:hidden"
+         className="rounded-tr-md relative z-20  rounded-br-md shadow-sm px-1 py-2 bg-gray-200 cursor-pointer font-open border-l-2 border-orange-500  z-0 lg:hidden"
          onClick={() => handleAccordionClick(id)}
        >
-         <motion.div className="text-yahia-600 font-bold mb-3 ">
+         <motion.div className="text-yahia-600 font-bold px-3 flex items-center justify-between ">
            <p>{Category}</p>
+           <p className="text-orange-500">{openAccordion === id ? <BiSolidUpArrow/>  : <BiSolidDownArrow/> }</p>
          </motion.div>
          {openAccordion === id ? (
          <motion.div
@@ -43,12 +45,12 @@ const Accordion = ({ question, answer }) => {
              },
            }}
            exit={{ opacity: 0 }}
-           className="p-2 text-md text-gray-700 border-l border-b border-gray-300 rounded-md"
+           className="p-2 text-md text-gray-700  rounded-md"
          >
           <p>{mainText}</p>
           <div className="my-5 py-5 px-5  bg-white border rounded-md w-[95%] max-xl:text-sm">
                     <h1 className="pb-5 ">{scndText}</h1>
-                    <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/>  {PointA}</p>
+                    <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/> {PointA}</p>
                     <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/> {PointB}</p>
                     <p className="pb-3 flex  justify-center gap-2"><GiCheckMark/> {PointC}</p>
                   </div>
