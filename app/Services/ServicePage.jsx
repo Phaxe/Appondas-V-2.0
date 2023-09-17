@@ -7,13 +7,14 @@ import { ServiceData } from "../Data.js";
 import { IoIosPeople, IoIosArrowForward } from "react-icons/io";
 import Link from "next/link";
 import Accordions from "./Accordion";
+import PagesBanners from "@/components/PagesBanners/PagesBanners";
 
 
 const ServicePage = () => {
   const [toggle, setToggle] = useState(1);
   return (
     <div className="w-full h-full flex flex-col gap-10 bg-yahia-700  ">
-      <div className="relative">
+      {/* <div className="relative">
         <Image src={Office} className="h-[700px] object-cover" />
         <div className="absolute top-2/4 left-40">
           <h1 className="text-white text-6xl font-semibold mb-5">
@@ -25,7 +26,9 @@ const ServicePage = () => {
             Development Services we provide.
           </p>
         </div>
-      </div>
+      </div> */}
+      <PagesBanners pic={Office} header='IT Services with Sparkling Results' text='Reach your business goals with the entire range of Software
+            Development Services we provide.'/>
       <div className="m-auto h-full bg-white px-[70px] py-[40px] mt-10 responsive rounded-md max-md:px-1 max-md:py-1">
         <div>
           <h1 className="text-4xl mb-5 max-xl:text-2xl max-md:py-5 max-md:px-5">Services we provide</h1>

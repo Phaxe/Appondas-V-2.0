@@ -14,8 +14,8 @@ const AboutContent = () => {
     </div>
     <OurMisson/>
    <div className="responsive bg-gray-200 rounded-md">
-   <div className="flex items-center justify-between py-10 px-10">
-        <div className="w-full">
+   <div className="flex items-center justify-between py-10 px-10 max-md:flex-col">
+        <div className="w-full  max-md:order-last">
           <Team />
         </div>
         <div className=""> 
@@ -30,7 +30,7 @@ const AboutContent = () => {
  
    </div>
    <div className="responsive bg-gray-200 rounded-md">
-   <div className="flex items-center justify-between py-10 px-10">
+   <div className="flex items-center justify-between py-10 px-10 max-md:flex-col">
       
       <div className=""> 
       <Image
@@ -40,7 +40,7 @@ const AboutContent = () => {
               className='rounded-md   object-cover'
             />
       </div>
-      <div className="w-full">
+      <div className="w-full max-md:order-last">
         <Team />
       </div>
     </div>

@@ -23,7 +23,7 @@ const Porto = () => {
       </div>
  <div className="flex items-center justify-center  bg-gradient-to-r from-yahia-400 via-yahia-600 to-yahia-900 rounded-md mb-10 max-lg:hidden ">
     <div className="flex items-center  justify-between py-10 gap-10 ">   
-    <div className="w-[900px] h-full flex justify-center items-center mx-auto 2xl:w-[900px] xl:w-[620px] max-xl:w-[500px] ">
+    <div className="w-[900px] h-full flex justify-center items-center mx-auto 2xl:w-[900px] xl:w-[620px] max-xl:w-[500px]  ">
           <Image
             src={Resto}
             className="h-[100%] w-full  object-cover rounded-md m-5   hover:cursor-pointer hover:scale-105 duration-300 "
@@ -69,9 +69,9 @@ const Porto = () => {
  <div className="flex items-center  justify-between gap-10 max-lg:flex-col">
  <div className="flex  items-center justify-center bg-gradient-to-l w-[650px] max-md:w-[500px] max-sm:w-[350px] from-orange-400 via-orange-600 to-orange-900  rounded-md mb-10 lg:hidden ">
     <div className="flex items-center flex-col  justify-between py-10 gap-10 max-md:py-1 ">   
-    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto">
+    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto max-md:w-[330px]">
           <Image
-            src={Resto}
+            src={shop}
             className="h-[100%] w-full  m-5 object-cover rounded-md   hover:cursor-pointer hover:scale-105 duration-300 "
             alt="dashboard"
           />
@@ -113,7 +113,7 @@ const Porto = () => {
   </div>
  <div className="flex  items-center justify-center bg-gradient-to-l w-[650px] max-md:w-[500px] max-sm:w-[350px] from-orange-400 via-orange-600 to-orange-900  rounded-md mb-10 ">
     <div className="flex items-center flex-col  justify-between py-10 gap-10 max-md:py-1 ">   
-    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto">
+    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto max-md:w-[330px]">
           <Image
             src={Resto}
             className="h-[100%] w-full  m-5 object-cover rounded-md   hover:cursor-pointer hover:scale-105 duration-300 "
@@ -157,7 +157,7 @@ const Porto = () => {
   </div>
   <div className="flex  items-center justify-center bg-gradient-to-l w-[650px] max-md:w-[500px] max-sm:w-[350px] from-orange-400 via-orange-600 to-orange-900  rounded-md mb-10 ">
     <div className="flex items-center flex-col  justify-between py-10 gap-10 max-md:py-1 ">   
-    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto">
+    <div className="w-[600px] xl:w-[400px] max-lg:w-[600px] max-md:w-[380px]   max-xl:w-[400px] 2xl:w-[600px] h-full flex justify-center items-center mx-auto max-md:w-[330px]">
           <Image
             src={Resto}
             className="h-[100%] w-full  m-5 object-cover rounded-md   hover:cursor-pointer hover:scale-105 duration-300 "

@@ -1,16 +1,31 @@
 'use client'
 import ServiceCard from "@/components/service-card/Service-Card";
-import Whyus from "@/components/why-us/Why-us";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect } from "react";
+import { headingVariant } from "@/Animations/AnimationsVariants/Variants";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
+
 const Features = () => {
+  const controls = useAnimation();
+  
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.stop();
+    }
+  }, [controls, inView]);
   return (
     <div className="bg-yahia-800 my-10  flex flex-col items-center justify-center responsive  rounded-md">
-    <div id='features' className=" flex flex-col items-center justify-center align-middle w-full relative ">
+    <div ref={ref} id='features' className=" flex flex-col items-center justify-center align-middle w-full relative ">
   
       <motion.div 
+  variants={headingVariant}
+  initial="hidden"
+  animate={controls}
       
-      transition={{ type: "spring", stiffness: 100 }}
       className='py-3 flex flex-col items-center justify-center max-lg:px-3'>
         <h1 className='text-3xl py-3 font-medium bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700 max-lg:text-xl '>
         Brilliant web design, simplified

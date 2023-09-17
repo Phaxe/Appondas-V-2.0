@@ -2,8 +2,8 @@ import React from "react";
 
 const OurMisson = () => {
   return (
-    <div className="flex gap-10 items-center justify-center">
-      <div className="w-[70%] flex flex-col gap-5 items-start justify-center text-white text-start">
+    <div className="flex gap-10 items-center justify-center max-lg:grid place-items-center">
+      <div className="w-[70%] flex flex-col gap-5 items-start justify-center text-white text-start max-md:w-full">
         <h1 className="text-3xl py-3 font-medium bg-clip-text text-transparent bg-gradient-to-l from-orange-700 via-orange-400 to-orange-700 max-lg:text-xl">Our Mission</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut debitis

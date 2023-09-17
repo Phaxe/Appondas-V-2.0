@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
-import Office from '../../public/office.jpg'
+import Office from "../../public/office.jpg";
 const PagesBanner = () => {
   return (
     <div>
-                   <div className="relative">
+      <div className="relative">
         <Image src={Office} className="h-[700px] object-cover" />
         <div className="absolute top-2/4 left-40">
           <h1 className="text-white text-6xl font-semibold mb-5">
@@ -18,7 +18,7 @@ const PagesBanner = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PagesBanner
+export default PagesBanner;

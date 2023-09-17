@@ -6,7 +6,7 @@ const ServSec = () => {
       <h1 className="text-4xl pb-5 max-md:py-5 max-md:px-5">Appondas's guarantees</h1>
       <div className="grid grid-cols-2 gap-4 max-lg:grid-cols-1">
         <div className=" px-5 py-5 border-2  rounded  shadow-lg"> 
-          <h1 className="pb-5 text-xl">High-quality practices</h1>
+          <h1 className="pb-5 text-xl text-yahia-500">High-quality practices</h1>
           <p>
             In order to apply the most cutting-edge approaches and provide
             high-quality Software Development Services, our experts are
@@ -14,7 +14,7 @@ const ServSec = () => {
           </p>
         </div>
         <div className=" px-5 py-5 border-2  rounded  shadow-lg">
-          <h1 className="pb-5 text-xl">Customer trust</h1>
+          <h1 className="pb-5 text-xl text-yahia-500">Customer trust</h1>
           <p>
             Thanks to our high professional standards, effective development
             workflows, and focus on quality, we have earned a positive
@@ -23,7 +23,7 @@ const ServSec = () => {
           </p>
         </div>
         <div className=" px-5 py-5 border-2  rounded  shadow-lg">
-          <h1 className="pb-5 text-xl">Strategic partnerships</h1>
+          <h1 className="pb-5 text-xl text-yahia-500">Strategic partnerships</h1>
           <p>
             Appondas's recurring and referring customers prove our reliability
             and dedication. Once your IT project is completed, we will be happy
@@ -32,7 +32,7 @@ const ServSec = () => {
           </p>
         </div>
         <div className=" px-5 py-5 border-2  rounded  shadow-lg"> 
-          <h1 className="pb-5 text-xl">Individual approach</h1>
+          <h1 className="pb-5 text-xl text-yahia-500">Individual approach</h1>
           <p>
             Appondas is a supplier of Software Development Services employing
             and allocating IT specialists with both the hard and soft skills
