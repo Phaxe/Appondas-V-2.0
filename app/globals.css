@@ -3,7 +3,11 @@
 @tailwind utilities;
 
  
-
+@layer components {
+    .responsive{
+        @apply  2xl:w-[1500px] xl:w-[1100px] lg:w-[950px] md:w-[750px] sm:w-[600px] max-sm:w-[360px]
+    }
+}
 body,html{
     scroll-behavior: smooth !important;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif

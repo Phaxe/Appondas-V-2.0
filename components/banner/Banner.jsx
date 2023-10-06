@@ -2,7 +2,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <>
-       <div className='flex align-middle justify-center h-[100vh] relative w-full'>
+       <div className='flex align-middle justify-center h-[100vh] relative w-full '>
       <video  autoPlay muted   width="100%" className='object-cover' height="100%" loop  >
         
         <source  src="/Appondas-Video-New.4176041b.mp4"  type='video/mp4'/>

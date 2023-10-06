@@ -11,10 +11,10 @@ import {
 import FooterContact from "./FooterContact";
 const Footer = () => {
   return (
-    <div className="bg-yahia-700">
-   <FooterContact/>
-      <div className='w-[1050px] h-[30vh] flex items-center justify-between m-auto mt-5 
-      max-lg:w-[800px] max-md:w-[550px] max-sm:grid max-sm:grid-cols-2 max-sm:place-items-center max-sm:w-[100%] max-sm:h-full '>
+    <div className="bg-yahia-800 w-full flex flex-col items-center justify-center mt-10   ">
+   {/* <FooterContact/> */}
+      <div className='w-[1050px] h-full flex items-center justify-between m-auto mt-5 px-5 py-5
+      max-lg:w-full max-md:w-full max-md:grid max-md:grid-cols-2 max-sm:grid max-sm:grid-cols-1 max-sm:gap-5 max-sm:px-5 max-sm:m-0 max-sm:w-[390px] max-sm:h-full '>
         <div>
           <Image
             src='/logo.png'
@@ -57,7 +57,7 @@ const Footer = () => {
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Mobile Development</li>
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Cloud Consulting </li>
             <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Redesgin Service</li>
-            <li className='text-white'>Contact</li>
+
           </ul>
         </div>
         <div>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='w-[100%] text-yahia-500 bg-white   flex items-center justify-center m-auto'>
+      <div className='w-full text-yahia-500 bg-white font-semibold   flex items-center justify-center '>
         <p>© 2023. Appondas LLC. All rights reserved.</p>
       </div>
     </div>
