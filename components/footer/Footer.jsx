@@ -24,10 +24,10 @@ const Footer = () => {
             alt='appondas-image'
           />
           <ul className='flex flex-col items-start justify-center gap-2 mt-2 ml-5 '>
-            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>E-mail : <span className="font-medium">Support@appondas.com</span></li>
-            <li className='text-white  hover:text-orange-500 duration-300 cursor-pointer'>Office : <span className="font-medium">22 Wadi-Degla Maadi</span></li>
-            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Item : <span className="font-medium">text to be filled</span> </li>
-            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Item : <span className="font-medium">text to be filled</span> </li>
+            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>E-mail : <span className="font-medium">Contact@appondas.com</span></li>
+            <li className='text-white  hover:text-orange-500 duration-300 cursor-pointer'>Office : <span className="font-medium">Carrer 1, 85 Paterna - Valencia</span></li>
+            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Working Days : <span className="font-medium">Mon - Fri</span> </li>
+            <li className='text-white hover:text-orange-500 duration-300 cursor-pointer'>Working Hours : <span className="font-medium">08:00 - 18:00</span> </li>
             <ul className="flex ">
             <li className='text-4xl text-orange-500 cursor-pointer  py-2 hover:rounded-[50%] duration-300'>
             <BiLogoFacebook />
