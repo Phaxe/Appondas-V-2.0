@@ -81,7 +81,7 @@ const ServiceCard = () => {
               Mobile App Design
             </h1>
             <p className="text-white py-4 max-lg:p-1  max-sm:text-sm max-sm:py-2">
-              With a strong focus on modern platform guidelines and user needs,
+              With a strong focus on modern platform guidelines and user's needs,
               Appondas creates unique mobile app designs
             </p>
             <button
@@ -117,11 +117,11 @@ const ServiceCard = () => {
         >
           <div className="px-10 py-10 max-lg:p-0">
             <h1 className="text-white text-4xl  py-4  max-sm:text-xl max-sm:py-0">
-              Web & Desktop Design
+              Web & Desktop Apps
             </h1>
             <p className="text-white py-4 max-sm:text-sm max-sm:py-2">
-              Appondas designs web and desktop solutions with intuitive UI and
-              optimal UX with responsive layouts
+              Appondas designs web and desktop App-solutions with intuitive UI,
+              optimal UX and best performance
             </p>
             <button
               className="py-2 mt-5 px-16 text-white font-semibold border-orange-500 border-2 max-sm:py-1 max-sm:px-8 max-sm:w-full hover:bg-orange-500 
@@ -162,7 +162,7 @@ const ServiceCard = () => {
               Redesign services
             </h1>
             <p className="text-white py-4 max-lg:p-1  max-sm:text-sm max-sm:py-2">
-              Appondas's UI/UX experts can redesign your software product for
+              Appondas's team of experts are ready to redesign or rebuild your existing software for
               unprecedented performance and efficiency
             </p>
             <button
