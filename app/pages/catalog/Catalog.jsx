@@ -19,10 +19,9 @@ const Catalog = () => {
         Customers rely on Appondas
         </h1>
         <span className='py-3 xl:px-10 text-white text-center max-lg:text-sm'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi,
-            pariatur minima? <br /> A quibusdam eius ducimus! Ratione, aut autem omnis
-            porro illo, <br /> ipsam illum placeat temporibus saepe ipsum natus
-            obcaecati voluptates!
+        Appondas is the answer for brands that values speed, quality and scale, our proven track-records<br /> 
+        in complex projects for 50+ fast-growing companies in over 10 different industries.<br /> we are your one-stop shop for all your unique requirements, be
+        it individual resources,<br /> dedicated teams or trunkey project - we got you covered.
         </span>
       </div>
 
@@ -32,7 +31,7 @@ const Catalog = () => {
           "
           >
             <Image 
-              src={dashboard}
+              src={dashboard}c
               className="h-[100%] w-[80%] mx-auto object-cover rounded-md "
               alt="dashboard"
             />
