@@ -31,11 +31,10 @@ const Features = () => {
         Brilliant web design, simplified
         </h1>
         <span className='py-3 xl:px-10 text-white text-center max-lg:text-sm'>
-        Our website builder helps bring your unique vision to life—no design
-          or code experience required. <br />  Create a customizable, mobile-optimized
-          website within the hour. <br /> All you need to start is a domain name and a
-          vision for your website. <br /> If you're building a small business website,
-          online store, or otherwise, Mailchimp can simplify the process.
+        At Appondas, we specialize in crafting stunning website designs and cutting-edge web development solutions. <br />
+        Our expert team is dedicated to creating visually appealing and user-friendly websites that meet your specific needs.<br />
+        Whether you're looking for a new website, a website redesign, or custom web app development, we have the skills and experience to<br /> make your digital vision a reality. 
+        Contact us today to elevate your online presence with professional website design services.
         </span>
       </motion.div>
     </div>

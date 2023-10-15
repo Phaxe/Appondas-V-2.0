@@ -35,11 +35,8 @@ const Whyus = () => {
           Why Appondas ?
         </h1>
         <span className="py-3 xl:px-10 text-yahia-700 text-center max-lg:text-sm">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse animi
-          voluptatum molestiae quis quo? <br /> Mollitia vitae temporibus
-          doloremque incidunt saepe itaque modi necessitatibus, <br /> tempora
-          voluptatum, similique eligendi dolorem, aliquam non harum iste minima
-          eius officia.
+          Appondas team of experts has more than 11 years of industry expertise operating out of Spain. <br /> You will get a dedicated team of experts, unwavering transparency, and competitive pricing <br />
+          that ensures exceptional value for your digital projects.
         </span>
       </motion.div>
       <motion.ul 
